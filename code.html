@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Pawsitive Treats - Homemade Dog Treats</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#f5993d",
+            "background-light": "#FFF8DC", /* Cream */
+            "background-dark": "#221910",
+            "text-light": "#5D4037", /* Chocolate Brown */
+            "text-dark": "#f8f7f5",
+            "peach": "#FFDAB9",
+            "sky-blue": "#B0E0E6",
+            "sunny-yellow": "#FFD700"
+          },
+          fontFamily: {
+            "display": ["Epilogue", "sans-serif"]
+          },
+          borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+        },
+      },
+    }
+  </script>
+</head>
+<body class="font-display bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark">
+<div class="relative flex min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<!-- TopNavBar -->
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-peach/50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm px-4 sm:px-10 py-3">
+<div class="flex items-center gap-4 text-text-light dark:text-text-dark">
+<div class="w-8 h-8 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z" fill="currentColor"></path>
+</svg>
+</div>
+<h1 class="text-xl font-bold leading-tight tracking-[-0.015em]">Pawsitive Treats</h1>
+</div>
+<div class="flex flex-1 justify-end items-center gap-4 sm:gap-8">
+<nav class="hidden md:flex items-center gap-9">
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">All Treats</a>
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">About Us</a>
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Contact Us</a>
+</nav>
+<button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 w-10 bg-sky-blue/30 hover:bg-sky-blue/50 text-text-light dark:text-text-dark gap-2 text-sm font-bold leading-normal tracking-[0.015em] transition-colors">
+<span class="material-symbols-outlined">shopping_cart</span>
+</button>
+</div>
+</header>
+<main class="flex-1 px-4 sm:px-10 lg:px-20 py-5">
+<div class="mx-auto flex max-w-[1200px] flex-col">
+<!-- Carousel -->
+<section class="mb-12">
+<div class="flex overflow-x-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden rounded-lg">
+<div class="flex items-stretch p-1 gap-3 w-full">
+<div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-full sm:min-w-60">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex flex-col" data-alt="A happy golden retriever enjoying a dog treat in a sunny park" style='background-image: url("shadow.jpg");'></div>
+<div>
+<p class="text-base font-medium leading-normal">Baked with Love, Approved by Paws</p>
+<p class="text-sm font-normal leading-normal opacity-70">All-natural ingredients for a happy, healthy pup.</p>
+</div>
+</div>
+<div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-full sm:min-w-60">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex flex-col" data-alt="Close up shot of peanut butter dog biscuits" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBpLWQWWKdwnnS-sd26-6M7ULz1_fokS8kpVfbAxGajZKziDgFDruA1PKMQrXnA9_GzO48j7DnLP9r_3uFPzaRFxkLGZeItZ0AsFVVYXjO1Pk6o1mJU3q_-IXwQV4mfN8uOWKOUqyN-9Q4U3k9BQXDSZ5LJVHmW1aYbBFdVodspFSlv_WUDPbICjHgjVLGKpisK53cbFqO3wyWHyHZayDKkuI50Ncm5uS_suk1I0QisvdiVbAmciXp-6JFR_Uc3A18OKe_7GfCbpV4d");'></div>
+<div>
+<p class="text-base font-medium leading-normal">New! Peanut Butter Pupscotti</p>
+<p class="text-sm font-normal leading-normal opacity-70">The perfect crunchy snack for your best friend.</p>
+</div>
+</div>
+<div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-full sm:min-w-60">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex flex-col" data-alt="A variety of colorful dog treats arranged on a wooden board" style='background-image: url("bone2.jpg");'></div>
+<div>
+<p class="text-base font-medium leading-normal">Treats for Every Good Doggo</p>
+<p class="text-sm font-normal leading-normal opacity-70">Find the perfect flavor for your furry companion.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SectionHeader -->
+<section class="mb-6">
+<h2 class="text-3xl font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5 text-center">Our Paws-itively Popular Picks</h2>
+</section>
+<!-- ImageGrid -->
+<section class="mb-12">
+<div class="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-6 p-4">
+<div class="flex flex-col gap-3 pb-3 bg-white/50 dark:bg-background-dark/50 p-4 rounded-lg hover:shadow-lg transition-shadow">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl" data-alt="Golden brown cheesy dog treats in the shape of bones" style='background-image: url("bone1.jpg");'></div>
+<div>
+<p class="text-lg font-medium leading-normal">Cheesy Chompers</p>
+<p class="text-base font-normal leading-normal opacity-70">$12.99</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 bg-white/50 dark:bg-background-dark/50 p-4 rounded-lg hover:shadow-lg transition-shadow">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl" data-alt="Crispy bacon-flavored dog biscuits" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAaCcOD62WXQ3pRHSmgiLS8dK7vTNMW3bnTeWqYNno1dv5QXUqJLkYQr5FT6WXle1PtIlQJ1eG7QwMxbJiIJB7rq9nLAXHcIc3-J1VhuzVO07WJCxwFQt0rLX1TKnNWhwWo-zI7Q6Os5MhXFEhR-tnnZdOwcrpZ4hEcSf6PYuLhT0jamKNzku7_YDh-Gt-wZx1KyE0zwd_3xHSj810vYcyuwC7E25G1alrNIq3sG_NJSy62ySxQqZZPTk8mFS5n_Wv5m9X1j9X7sF0i");'></div>
+<div>
+<p class="text-lg font-medium leading-normal">Barkin' Bacon Bites</p>
+<p class="text-base font-normal leading-normal opacity-70">$14.99</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 bg-white/50 dark:bg-background-dark/50 p-4 rounded-lg hover:shadow-lg transition-shadow">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl" data-alt="Dog-friendly biscotti with peanut butter drizzle" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCFbR6n-_x8Q1CbJcZ55oTSU4dIxckzwJxvldJ0vCGBocApgsA5I2GgN_w7uQzGhN5n7YzhurOE_1MZoHuPMC813-a_BJeOBMyzNbN_T0QC5ZUM2k_lR2AYw6mojmzfTNekENirErjzv_dqMHoebbaC6YPRpHUZNTO2pqj-O5lfm11IYJczbSu6_SVQhYR03BI1t5_7WEPn8Uk2dn7YwPuQXbs_rz4z8scEvpLaiOuAIC-ww5_2OC2M7wZCrir410fB0TyoeA15p5gj");'></div>
+<div>
+<p class="text-lg font-medium leading-normal">Peanut Butter Pupscotti</p>
+<p class="text-base font-normal leading-normal opacity-70">$12.99</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 bg-white/50 dark:bg-background-dark/50 p-4 rounded-lg hover:shadow-lg transition-shadow">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl" data-alt="Orange swirled dog treats made from sweet potato" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA7Knb8Ph1Zy-hPseun3NqWpyG6R8fANRAb0mTKkAX_hPjfdv-TIdbugA9iNdh_2cA7TmEDd_5u5WnGqH7RKQfb1jFyme4eNIlPX7GUhZnPOLxrMXdCXpCLv-nxObQQ4T5CEVPCwecShsA0JeN-8yOK0JxsjXp1N0sNmHQt1HjQxvZmrIt11NjwhgeTlahCqSQhTjx0Ry5ovwohAc2M1TA7VC3jGGs_gidzTVpcRF5-7zbyNRFl_mUk6F5HcEb380ZLwyhLN46fdlre");'></div>
+<div>
+<p class="text-lg font-medium leading-normal">Sweet Potato Swirls</p>
+<p class="text-base font-normal leading-normal opacity-70">$10.99</p>
+</div>
+</div>
+</div>
+</section>
+<!-- SingleButton -->
+<section class="mb-16">
+<div class="flex px-4 py-3 justify-center">
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-6 bg-sunny-yellow text-text-light text-base font-bold leading-normal tracking-[0.015em] hover:scale-105 transition-transform">
+<span class="truncate">Shop All Treats</span>
+</button>
+</div>
+</section>
+<!-- About Us Snippet -->
+<section class="mb-16 bg-peach/40 dark:bg-peach/10 rounded-lg p-8">
+<div class="grid md:grid-cols-2 gap-8 items-center">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl" data-alt="A friendly woman smiling with her cute corgi dog" style='background-image: url("Jen_Shep.png");'></div>
+<div class="flex flex-col items-start gap-4 text-center md:text-left">
+<h2 class="text-3xl font-bold leading-tight tracking-[-0.015em]">Made with Love (and Wags)</h2>
+<p class="opacity-80">Hi, I'm Jen and this is my Chief Tasting Officer, Shep! Every treat from our kitchen is baked with the same love and care I give my own furry family. We use only the best all-natural ingredients, because every dog deserves a Pawsitive Treat.</p>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-6 bg-sky-blue text-text-light text-base font-bold leading-normal tracking-[0.015em] hover:scale-105 transition-transform">
+<span class="truncate">Read Our Story</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Social Proof -->
+<section class="mb-12">
+<h2 class="text-3xl font-bold leading-tight tracking-[-0.015em] px-4 pb-6 pt-5 text-center">Happy Tails &amp; Happy Tummies</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="bg-white/50 dark:bg-background-dark/50 p-6 rounded-lg">
+<p class="italic mb-4">"My picky pug, Winston, absolutely goes crazy for the Cheesy Chompers. I've never seen him so excited for a treat!"</p>
+<p class="font-bold">- Jessica R. &amp; Winston</p>
+</div>
+<div class="bg-white/50 dark:bg-background-dark/50 p-6 rounded-lg">
+<p class="italic mb-4">"I love that I can read and understand all the ingredients. Finally, a healthy treat my dog loves. Thank you Pawsitive Treats!"</p>
+<p class="font-bold">- Mark T. &amp; Luna</p>
+</div>
+<div class="bg-white/50 dark:bg-background-dark/50 p-6 rounded-lg">
+<p class="italic mb-4">"The Peanut Butter Pupscotti is a huge hit! Perfect for training and for just being a good boy. We'll be back for more!"</p>
+<p class="font-bold">- Emily C. &amp; Cooper</p>
+</div>
+</div>
+</section>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-peach/60 dark:bg-background-dark/60 mt-16 py-12 px-4 sm:px-10 lg:px-20">
+<div class="mx-auto max-w-[1200px] grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+<div>
+<h3 class="font-bold text-lg mb-4">Contact</h3>
+<ul class="space-y-2">
+<li><a class="hover:text-primary transition-colors" href="mailto:hello@pawsitivetreats.com">hello@pawsitivetreats.com</a></li>
+<li><a class="hover:text-primary transition-colors" href="tel:123-456-7890">123-456-7890</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-bold text-lg mb-4">Follow Us</h3>
+<div class="flex justify-center md:justify-start gap-4">
+<a class="text-text-light dark:text-text-dark hover:text-primary transition-colors" data-alt="Instagram link" href="#">
+<svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><rect height="20" rx="5" ry="5" width="20" x="2" y="2"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+</a>
+<a class="text-text-light dark:text-text-dark hover:text-primary transition-colors" data-alt="Facebook link" href="#">
+<svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+</a>
+</div>
+</div>
+<div>
+<h3 class="font-bold text-lg mb-4">Quick Links</h3>
+<ul class="space-y-2">
+<li><a class="hover:text-primary transition-colors" href="#">About Us</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Contact</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">FAQ</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Shipping &amp; Returns</a></li>
+</ul>
+</div>
+</div>
+<div class="mt-8 pt-6 border-t border-text-light/20 text-center text-sm opacity-70">
+<p>© 2024 Pawsitive Treats. All Rights Reserved.</p>
+</div>
+</footer>
+</div>
+</div>
+</body></html>
