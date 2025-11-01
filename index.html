@@ -37,10 +37,41 @@
 <!-- TopNavBar -->
 <header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-peach/50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm px-4 sm:px-10 py-3">
 <div class="flex items-center gap-4 text-text-light dark:text-text-dark">
-<div class="w-8 h-8 text-primary">
-<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-<path d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z" fill="currentColor"></path>
+<div class="w-8 h-8 text-primary" aria-hidden="false">
+  <!-- Paw logo: fills with currentColor so it inherits `.text-primary` -->
+<!-- Dog Paw (Solid) 🐾 -->
+<svg
+  role="img"
+  aria-labelledby="pawTitle pawDesc"
+  viewBox="0 0 128 128"
+  width="32" height="32"
+  xmlns="http://www.w3.org/2000/svg"
+  style="--paw-color:#222;">
+  <title id="pawTitle">Dog paw logo</title>
+  <desc id="pawDesc">A stylized dog paw with four toe pads and one large pad</desc>
+
+  <!-- You can also set fill with CSS: svg { --paw-color: #0ea5e9; } -->
+  <g fill="var(--paw-color)">
+    <!-- Toe pads (ellipses) -->
+    <ellipse cx="38" cy="36" rx="12" ry="16"/>
+    <ellipse cx="64" cy="28" rx="13" ry="17"/>
+    <ellipse cx="90" cy="36" rx="12" ry="16"/>
+    <ellipse cx="25" cy="56" rx="11" ry="15"/>
+    <ellipse cx="103" cy="56" rx="11" ry="15"/>
+
+    <!-- Main pad (smooth “bean” shape) -->
+    <path d="
+      M64 106
+      c-22 0-40-13-40-29
+      c0-12 10-22 23-24
+      c7-1 11 2 17 2
+      s10-3 17-2
+      c13 2 23 12 23 24
+      c0 16-18 29-40 29
+      z"/>
+  </g>
 </svg>
+
 </div>
 <h1 class="text-xl font-bold leading-tight tracking-[-0.015em]">Pawsitive Treats</h1>
 </div>
